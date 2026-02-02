@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Button, Paper, TextField, Typography } from "@mui/material";
 
-export default function MultiplyPage() {
+export default function Calculos() {
   const [a, setA] = useState("");
   const [b, setB] = useState();
 

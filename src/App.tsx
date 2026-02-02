@@ -4,7 +4,7 @@ import { NavLink, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
 import SumPage from "./pages/SumPage";
-import MultiplyPage from "./pages/MultiplyPage";
+import MultiplyPage from "./pages/Calculos";
 import AboutPage from "./pages/AboutPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
@@ -22,7 +22,7 @@ export default function App() {
       <AppBar position="static" sx={{ bgcolor: "#343a40" }}>
         <Toolbar sx={{ gap: 1 }}>
           <Typography variant="h6" sx={{ fontWeight: 800, mr: 2 }}>
-            Mi App Bootstrap
+            Gestion de Productos 
           </Typography>
 
           <Button component={NavLink} to="/" end sx={linkBtnSx}>

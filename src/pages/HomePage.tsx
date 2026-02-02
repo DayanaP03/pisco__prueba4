@@ -10,10 +10,12 @@ export default function HomePage() {
       <Typography color="text.secondary">
       Consulta, registra y realiza cálculos sobre los productos del inventario.
       </Typography>
-    
+
+          
     
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSscE0mhRWoPn-6pM47xzqB1x53MYMbdo2QEg&s"></img>
  
+    
         
     
       <Paper sx={{ p: 3, borderRadius: 3 }}>

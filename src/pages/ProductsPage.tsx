@@ -93,9 +93,9 @@ export default function ProductsPage() {
                 <TableCell>{p.stock?? "0"}</TableCell>
         
                 <TableCell>
-                  {p?.url_image ? (
+                  {p?.image ? (
                     <img
-                      src={p.url_image}
+                      src={p.image}
                       alt={p?.name ?? "producto"}
                       style={{ width: 48, height: 48, objectFit: "cover", borderRadius: 8, border: "1px solid rgba(0,0,0,.15)" }}
                       onError={(e) => {
