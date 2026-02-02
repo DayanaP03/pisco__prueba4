@@ -77,7 +77,9 @@ export default function Calculos() {
         sx={{ mr: 2, mb: 2 }}
       />
     <br></br>
-    <Button>Calcular Precio Final  </Button>
+    <Button>  Calcular Precio Final  </Button>
     </Paper>
+
+    
   );
 }

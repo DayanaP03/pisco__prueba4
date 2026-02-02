@@ -28,7 +28,7 @@ export default function HomePage() {
 
 
 
-      <Paper sx={{ p: 3, borderRadius: 3 }}>
+      <Paper sx={{ p: 3, borderRadius: 3}}>
       <Typography color="text.secondary">
        Registrar Producto
         Agrega nuevos productos (locales) al arreglo.
